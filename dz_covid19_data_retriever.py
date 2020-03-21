@@ -51,7 +51,7 @@ class ArcGisMaps(COVID19DataRetriever):
         return useful_data
 
 
-parser = ArgumentParser(description='A script to get data of COVID19 in Algeria from different sources as JSON file.')
+parser = ArgumentParser(description='A script to get data of COVID-19 in Algeria from different sources as JSON file.')
 parser.add_argument('--source', '-s', required=True, choices=[COVID19Maghreb.__name__, ArcGisMaps.__name__],
                     help='The source used to get the data.')
 parser.add_argument('--output-file', '-o', type=FileType('w', encoding='UTF-8'), default=sys.stdout,
