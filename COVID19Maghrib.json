@@ -1,0 +1,107 @@
+{
+    "1": {
+        "confirmed": 1,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "6": {
+        "confirmed": 5,
+        "deaths": 1,
+        "recovered": 0
+    },
+    "9": {
+        "confirmed": 110,
+        "deaths": 8,
+        "recovered": 30
+    },
+    "10": {
+        "confirmed": 2,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "15": {
+        "confirmed": 10,
+        "deaths": 1,
+        "recovered": 0
+    },
+    "16": {
+        "confirmed": 21,
+        "deaths": 1,
+        "recovered": 0
+    },
+    "21": {
+        "confirmed": 11,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "23": {
+        "confirmed": 5,
+        "deaths": 1,
+        "recovered": 0
+    },
+    "24": {
+        "confirmed": 2,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "25": {
+        "confirmed": 1,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "26": {
+        "confirmed": 2,
+        "deaths": 1,
+        "recovered": 0
+    },
+    "29": {
+        "confirmed": 2,
+        "deaths": 0,
+        "recovered": 2
+    },
+    "30": {
+        "confirmed": 2,
+        "deaths": 1,
+        "recovered": 0
+    },
+    "31": {
+        "confirmed": 12,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "34": {
+        "confirmed": 2,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "35": {
+        "confirmed": 1,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "38": {
+        "confirmed": 1,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "39": {
+        "confirmed": 3,
+        "deaths": 2,
+        "recovered": 0
+    },
+    "40": {
+        "confirmed": 1,
+        "deaths": 1,
+        "recovered": 0
+    },
+    "41": {
+        "confirmed": 1,
+        "deaths": 0,
+        "recovered": 0
+    },
+    "48": {
+        "confirmed": 1,
+        "deaths": 0,
+        "recovered": 0
+    }
+}
