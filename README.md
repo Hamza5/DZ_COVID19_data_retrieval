@@ -34,21 +34,21 @@ that can be saved or printed on the standard output.
 ## Usage
 
 ```
-$ python3 dz_covid19_data_retriever.py --source {COVID19Maghreb,ArcGisMaps} [--output-file OUTPUT_FILE]
+$ python3 dz_covid19_data_retriever.py --source {COVID19Maghreb,ArcGisMaps} [--output-file OUTPUT_FILE] [--historical]
 ```
 
 ### Examples
 
-Get the data from [Yassir COVID-19 Maghreb](http://www.covid19-maghreb.live/)
+Get the latest data from [Yassir COVID-19 Maghreb](http://www.covid19-maghreb.live/)
 and display it:
 
 ```
 $ python3 dz_covid19_data_retriever.py --source COVID19Maghreb
 ```
 
-Get the data from [ArcGisMaps COVID-19 Algeria](https://abdelghafour.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR06TyO9BGI6r-V1yJ8JSgda-56rbO4o0rp3-l0-SmNeJJ_JD_q3Fb0mVBo#/ad57a9371f6a4bf7b1b7881be4cdb8ae)
-and save it into a JSON file named `ArcGisMaps_DZ.json`
+Get the historical data from [ArcGisMaps COVID-19 Algeria](https://abdelghafour.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR06TyO9BGI6r-V1yJ8JSgda-56rbO4o0rp3-l0-SmNeJJ_JD_q3Fb0mVBo#/ad57a9371f6a4bf7b1b7881be4cdb8ae)
+and save it into a JSON file named `COVID19_ArcGisMaps_DZ_history.json`
 
 ```
-$ python3 dz_covid19_data_retriever.py --source ArcGisMaps --output-file ArcGisMaps_DZ.json
+$ python3 dz_covid19_data_retriever.py --source ArcGisMaps --historical --output-file COVID19_ArcGisMaps_DZ_history.json
 ```
